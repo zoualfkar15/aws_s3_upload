@@ -56,7 +56,7 @@ class AwsS3 {
     if (useSSL) {
       httpStr += 's';
     }
-    final endpoint = '$httpStr://$bucket.s3.$region.amazonaws.com';
+    final endpoint = '$httpStr://$bucket.$region.digitaloceanspaces.com';
 
     String? uploadKey;
 
